@@ -1,0 +1,7 @@
+category: Gnome
+requires: libatk1.0_0 libcairo2 libenchant1 libgailutil3.0_0 libgconf2_4 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk3.0_0 libpango1.0_0
+external-source: gtkhtml4.0
+sdesc: "GNOME HTML rendering/printing/editing engine (runtime)"
+ldesc: "GtkHTML is a lightweight HTML rendering/printing/editing engine.  It
+was originally based on KHTMLW, part of the KDE project, but is now
+being developed independently."
