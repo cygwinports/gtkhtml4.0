@@ -1,5 +1,5 @@
 category: Gnome
-requires: libgtkhtml4.0_0 libatk1.0-devel libcairo-devel libenchant-devel libgailutil3.0-devel libgconf2-devel libgdk_pixbuf2.0-devel libglib2.0-devel libgtk3.0-devel libpango1.0-devel
+requires: libgtkhtml4.0_0 libatk1.0-devel libcairo-devel libenchant-devel libgailutil3-devel libgconf2-devel libgdk_pixbuf2.0-devel libglib2.0-devel libgtk3-devel libpango1.0-devel
 external-source: gtkhtml4.0
 sdesc: "GNOME HTML rendering/printing/editing engine (development)"
 ldesc: "GtkHTML is a lightweight HTML rendering/printing/editing engine.  It

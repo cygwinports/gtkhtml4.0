@@ -9,4 +9,4 @@ libgtkhtml4_0_0_CONTENTS="usr/bin/*-4.0-0.dll usr/share/"
 libgtkhtml4_0_devel_CONTENTS="usr/include/ usr/lib/"
 PKG_IGNORE="usr/bin/gtkhtml-editor-test.exe"
 
-CYGCONF_ARGS="--enable-gtk3" # --with-glade-catalog
+#CYGCONF_ARGS="--with-glade-catalog"
