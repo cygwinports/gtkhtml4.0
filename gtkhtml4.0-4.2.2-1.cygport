@@ -1,0 +1,22 @@
+ORIG_PN="gtkhtml"
+inherit gnome2
+
+DESCRIPTION="GNOME Evolution HTML rendering/printing/editing engine"
+HOMEPAGE="http://www.gnome.org/projects/evolution/"
+
+PATCH_URI="4.2.2-no-undefined.patch"
+
+DEPEND="gnome-common
+	pkgconfig(enchant)
+	pkgconfig(gail-3.0)
+	pkgconfig(gladeui-2.0)
+	pkgconfig(gtk+-3.0)
+	pkgconfig(iso-codes)"
+
+PKG_NAMES="lib${PN}_0 lib${PN}-devel glade-gtkhtml-editor"
+libgtkhtml4_0_0_CONTENTS="--exclude=glade usr/bin/*-4.0-0.dll usr/share/"
+libgtkhtml4_0_devel_CONTENTS="--exclude=glade usr/include/ usr/lib/"
+glade_gtkhtml_editor_CONTENTS="usr/*/glade/"
+PKG_IGNORE="usr/bin/gtkhtml-editor-test.exe"
+
+CYGCONF_ARGS="--with-glade-catalog"

@@ -1,0 +1,7 @@
+category: Gnome
+requires: glade libcairo2 libglib2.0_0 libgtk3_0 libintl8
+external-source: gtkhtml4.0
+sdesc: "GNOME HTML rendering/printing/editing engine (Glade plugin)"
+ldesc: "GtkHTML is a lightweight HTML rendering/printing/editing engine.  It
+was originally based on KHTMLW, part of the KDE project, but is now
+being developed independently."
