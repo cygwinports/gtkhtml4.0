@@ -20,3 +20,5 @@ glade_gtkhtml_editor_CONTENTS="usr/*/glade/"
 PKG_IGNORE="usr/bin/gtkhtml-editor-test.exe"
 
 CYGCONF_ARGS="--with-glade-catalog"
+
+KEEP_LA_FILES="none"
