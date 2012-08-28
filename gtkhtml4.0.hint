@@ -1,5 +1,0 @@
-category: Gnome
-sdesc: "GNOME HTML rendering/printing/editing engine (sources)"
-ldesc: "GtkHTML is a lightweight HTML rendering/printing/editing engine.  It
-was originally based on KHTMLW, part of the KDE project, but is now
-being developed independently."
