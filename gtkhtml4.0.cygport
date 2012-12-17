@@ -1,7 +1,10 @@
 ORIG_PN="gtkhtml"
 inherit gnome2
 
-CATEGORY="Gnome"
+NAME="gtkhtml4.0"
+VERSION=4.6.1
+RELEASE=1
+CATEGORY="GNOME"
 SUMMARY="GNOME Evolution HTML rendering/editing engine"
 DESCRIPTION="GtkHTML is a lightweight HTML rendering/printing/editing engine.
 It was originally based on KHTMLW, part of the KDE project, but is now being
@@ -29,4 +32,3 @@ PKG_IGNORE="usr/bin/gtkhtml-editor-test.exe"
 
 CYGCONF_ARGS="--with-glade-catalog"
 
-KEEP_LA_FILES="none"
