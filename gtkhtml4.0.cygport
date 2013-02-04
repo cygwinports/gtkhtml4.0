@@ -2,7 +2,7 @@ ORIG_PN="gtkhtml"
 inherit gnome2
 
 NAME="gtkhtml4.0"
-VERSION=4.6.2
+VERSION=4.6.3
 RELEASE=1
 CATEGORY="GNOME"
 SUMMARY="GNOME Evolution HTML rendering/editing engine"
