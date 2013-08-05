@@ -2,9 +2,9 @@ ORIG_PN="gtkhtml"
 inherit gnome2
 
 NAME="gtkhtml4.0"
-VERSION=4.6.4
+VERSION=4.6.6
 RELEASE=1
-CATEGORY="GNOME"
+CATEGORY="Libs"
 SUMMARY="GNOME Evolution HTML rendering/editing engine"
 DESCRIPTION="GtkHTML is a lightweight HTML rendering/printing/editing engine.
 It was originally based on KHTMLW, part of the KDE project, but is now being
@@ -20,7 +20,7 @@ DEPEND="gnome-common
 	pkgconfig(gtk+-3.0)
 	pkgconfig(iso-codes)"
 
-PKG_NAMES="lib${PN}_0 lib${PN}-devel glade-gtkhtml-editor"
+PKG_NAMES="lib${NAME}_0 lib${NAME}-devel glade-gtkhtml-editor"
 libgtkhtml4_0_0_SUMMARY="${SUMMARY} (runtime)"
 libgtkhtml4_0_0_REQUIRES="iso-codes"
 libgtkhtml4_0_0_CONTENTS="--exclude=glade usr/bin/*-4.0-0.dll usr/share/"
